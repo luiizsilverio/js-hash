@@ -1,0 +1,17 @@
+{
+  "name": "js-hash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hash.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-hash": "nodemon hash.js",
+    "dev-salt": "nodemon hash-salt.js",
+    "dev-es": "nodemon encriptacaoSimetrica.js",
+    "dev-ea": "nodemon encriptacaoAssimetrica.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
