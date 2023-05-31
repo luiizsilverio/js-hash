@@ -8,7 +8,8 @@
     "dev-hash": "nodemon hash.js",
     "dev-salt": "nodemon hash-salt.js",
     "dev-es": "nodemon encriptacaoSimetrica.js",
-    "dev-ea": "nodemon encriptacaoAssimetrica.js"
+    "dev-ea": "nodemon encriptacaoAssimetrica.js",
+    "dev-ad": "nodemon assinatura.js"
   },
   "keywords": [],
   "author": "",
