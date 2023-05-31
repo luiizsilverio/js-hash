@@ -9,10 +9,17 @@
     "dev-salt": "nodemon hash-salt.js",
     "dev-es": "nodemon encriptacaoSimetrica.js",
     "dev-ea": "nodemon encriptacaoAssimetrica.js",
-    "dev-ad": "nodemon assinatura.js"
+    "dev-ass": "nodemon assinatura.js",
+    "dev-token": "nodemon token.js",
+    "dev-afb": "nodemon ataqueForcaBruta.js",
+    "dev-ad": "nodemon ataqueDicionario.js",
+    "dev-art": "nodemon ataqueRainbowTable.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.0"
+  }
 }
